@@ -1,32 +1,161 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  src: local('Pacifico'), url(./fonts/pacifico/pacifico.ttf) format('ttf'),
+  url('./fonts/pacifico/pacifico.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url('./fonts/pacifico/pacifico.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* @font-face {
+  font-family: 'Pacifico';
+  font-weight: 400;
+  src: local('Pacifico Regular'), local('Pacifico-Regular'),
+} */
+
+/* GENERAL STYLING */
+/* 
+#1A283D
+#25303F
+#3C78C2
+#5EB958
+#BE875E
+#f2f2f2 
+#2E2570
+#89661F
+
+*/
+/* @import url('https://fonts.googleapis.com/css?family=Pacifico'); */
+
+li, a {
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}
+body {
+    background: #1A283D;
+    color: #f2f2f2;
+
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+/* HEADER AND NAVIGATION STYLES */
+header {
+    text-align: center;
+}
+header h1 {
+    font-family: 'Pacifico';
+    margin: 0;
+    font-size: 4em;
+    color: #5EB958;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin-top: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+nav li {
+    padding: 0 5px;
 }
 
-.App-link {
-  color: #61dafb;
+/* MAP STYLING */
+#map {
+    width: 100%;
+    height: 100vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.infoWindowStyles {
+    color: #000;
+    z-index: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infoWindowStyles figure {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+/* SEARCH AREA */
+.searchContainer {
+    top: 0;
+    left: 0;
+    z-index: 10;
+    height: 100%;
+    min-height: 100px;
+    min-width: 200px;
+    width: 100%;
+    position: relative;
+    background: #19283e;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-top: 1em;
+}
+
+
+.drawerContainer {
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    height: 100%;
+    min-height: 100px;
+    width: 300px;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+}
+.notShowing {
+    left: -260px;
+    transition: left .5s;
+}
+
+.drawer-icon {
+    text-align: center;
+    position: relative;
+    z-index: 50;
+    padding: 1em .5em 0 .5em;
+    border-right: 1px solid white;
+    background: #19283e;
+}
+.searchInput {
+    display: flex;
+}
+
+.searchInput .fas {
+    padding: 0 5px 0 20px;
+}
+
+input#zoom-to-area-text {
+    width: 100%;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.venueListItem {
+    color: inherit;
+    background-color: inherit;
+    width: 100%;
+    padding: 1em 0;
+    border: 0;
+}
+
+.venueListItem:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+.searchInput {
+    position: initial;
+    margin-left: auto;
+    padding-right: 1em;
+}
+
+nav ul {
+    flex-direction: column;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 }

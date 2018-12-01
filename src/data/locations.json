@@ -1,0 +1,107 @@
+[
+  {
+    "title": "Firehouse Lounge",
+    "location": {
+      "lat": 30.2665,
+      "lng": -97.7412,
+      "address": "605 Brazos St"
+    },
+    "city": "Austin",
+    "url": null,
+    "genre": "pop",
+    "photo": null,
+    "id": "427d5680f964a520a7211fe3"
+  },
+  {
+    "title": "Elephant Room",
+    "location": {
+      "lat": 30.265,
+      "lng": -97.743,
+      "address": "315 Congress Ave"
+    },
+    "city": "Austin",
+    "url": null,
+    "genre": "blues",
+    "photo": null,
+    "id": "4101a680f964a520640b1fe3"
+
+  },
+  {
+    "title": "Antone's Nightclub",
+    "location": {
+      "lat": 30.266,
+      "lng": -97.740,
+      "address": "305 E 5th St"
+    },
+    "city": "Austin",
+    "url": null,
+    "genre": "rock",
+    "photo": null,
+    "id": "568c8b18498edb7318117b20"
+  },
+  {
+    "title": "Continental Club",
+    "location": {
+      "lat": 30.250,
+      "lng": -97.749,
+      "address": "1315 S Congress Ave"
+    },
+    "city": "Austin",
+    "url": null,
+    "genre": "funk",
+    "photo": null,
+    "id": "40b52f80f964a52051001fe3"
+  },
+  {
+    "title": "One-2-One Bar",
+    "location": {
+      "lat": 30.251,
+      "lng": -97.763,
+      "address": "1509 S Lamar Blvd"
+    },
+    "city": "Austin",
+    "url": null,
+    "genre": "jazz",
+    "photo": null,
+    "id": "505a7e4f8acadf4306beedb2"
+  },
+  {
+    "title": "Dozen Street",
+    "location": {
+      "lat": 30.273,
+      "lng": -97.720,
+      "address": "1808 E 12th St"
+    },
+    "city": "Austin",
+    "url": null,
+    "genre": "funk",
+    "photo": null,
+    "id": "5382c447498e3241cb433f17"
+  },
+  {
+    "title": "C-Boys Heart & Soul",
+    "location": {
+      "lat": 30.243,
+      "lng": -97.752,
+      "address": "2008 S Congress Ave"
+    },
+    "city": "Austin",
+    "url": null,
+    "genre": "funk",
+    "photo": null,
+    "id": "52c8cde7498e1f5cfa9b44c5"
+  },
+  {
+    "title": "Flamingo Catina",
+    "location": {
+      "lat": 30.266,
+      "lng": -97.737,
+      "address": "515 E 6th St"
+    },
+    "city": "Austin",
+    "url": null,
+    "genre": "reggae",
+    "photo": null,
+    "id": "40b13b00f964a520a3f31ee3"
+  }
+]
