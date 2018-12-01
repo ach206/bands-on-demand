@@ -3,7 +3,7 @@ Bands On Demand: a React based web application
 ======================================================
 User Interface built with React, designed by Camille Hall. With real time Google Maps API and Foursquare API data
 
-##See live demo
+## See live demo
 [Link to a live demo](https://ach206.github.io/memory-game/)
 
 ## How to get this repo
