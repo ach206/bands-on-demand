@@ -1,5 +1,5 @@
 
-Bands On Demand: a React based web application
+Bands On Demand: a React based single page application
 ======================================================
 User Interface built with React, designed by Camille Hall. With real time Google Maps API and Foursquare API data
 
