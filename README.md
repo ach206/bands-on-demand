@@ -6,7 +6,7 @@ User Interface built with React, designed by Camille Hall. With real time Google
 ## How to get this repo
 1) Download ZIP file or clone the repo:
 
-    ``git clone https://github.com/ach206/bands-on-demand-p7.git``
+    ``git clone https://github.com/ach206/bands-on-demand.git``
 
 2) `cd` or navigate to where you cloned the files.
 
