@@ -5,7 +5,11 @@
   "dependencies": {
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
-    "react-scripts": "2.1.1"
+    "react-scripts": "2.1.1",
+    "escape-string-regexp": "^1.0.5",
+    "google-map-react": "^1.1.0",
+    "google-maps-react": "^2.0.2",
+    "sort-by": "^1.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -26,9 +30,6 @@
   ],
   "devDependencies": {
     "debounce": "^1.2.0",
-    "escape-string-regexp": "^1.0.5",
-    "gh-pages": "^2.0.1",
-    "google-maps-react": "^2.0.2",
-    "sort-by": "^1.2.0"
+    "gh-pages": "^2.0.1"
   }
 }
